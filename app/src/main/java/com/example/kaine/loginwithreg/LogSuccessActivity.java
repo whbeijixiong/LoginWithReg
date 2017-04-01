@@ -1,0 +1,16 @@
+package com.example.kaine.loginwithreg;
+
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+/**
+ * Created by Kaine on 2016/12/15.
+ */
+
+public class LogSuccessActivity extends AppCompatActivity{
+    @Override
+    protected void onCreate( Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_success);
+    }
+}
